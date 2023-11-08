@@ -1,0 +1,39 @@
+html{
+    font-size: 62.5%;
+background-size: cover;
+color: aliceblue;
+text-align: center;
+font-family: Arial, sans-serif;
+
+}nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    background-color: #333;
+    padding: 20px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    /* 標題 */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+}
+
+* {
+    /* 先移除掉預設的值、空格 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

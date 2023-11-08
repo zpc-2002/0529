@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>滑動卷軸</title>
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+</head>
+<style>
+    body {
+        background-color: rgb(226, 228, 228);
+
+    }
+
+ h2 {
+        text-align: center;
+        color: rgb(63, 66, 68);
+        font-size: 50px;
+        padding: 50px;
+    }
+
+   
+    img {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    /* 頭像+對話框 */
+    .box {
+        padding: 10px;
+        margin: 10% 10%;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-gap: 30px;
+    }
+
+    /* 對話框 */
+    .box p {
+        border: 2px;
+        border-radius: 15px;
+        padding: 20px 20px;
+        background-color: rgb(134, 231, 149)
+    }
+
+    .box img {
+        width: 100%;
+        max-width: 100px;
+    }
+</style>
+
+<body>
+    <header>
+        <h2>門神起源與介紹</h2>
+    </header>
+
+
+    <div class="content" data-aos="fade-right">
+        <!-- 對話一 -->
+        <div class="box">
+            <img src="D:\[HTML]\圖片\大頭\Mafuyu_29.png">
+            <div class="description">
+                <p>
+                    不過既然要說到門神，那我們就先從門的歷史開始講吧！
+                    <br>在遠古時期，先民為了要躲避風雨及禽獸的危害，曾棲息在樹上或住在洞穴中。
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-left">
+        <!-- 對話二 -->
+        <div class="box">
+            <img src="D:\[HTML]\圖片\大頭\apd3x-eh5fj.png">
+            <div class="description">
+                <p>
+                    住在樹上好像猴子一樣，好有趣喔!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-right">
+        <!-- 對話三 -->
+        <div class="box">
+            <img src="D:\[HTML]\圖片\大頭\Mafuyu_29.png">
+            <div class="description">
+                <p>
+                    對啊！
+                    之後有巢氏用樹木製作巢居來避開這些危害，因此被推崇成為王。
+                    <br>進入農業社會後，生活水準提高，人們開始有固定的住所並建造居室
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-left">
+        <!-- 對話四 -->
+        <div class="box">
+            <img src="D:\[HTML]\圖片\大頭\apd3x-eh5fj.png">
+            <div class="description">
+                <p>
+                    那門也是在這個時期出現的嗎？
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-right">
+        <!-- 對話五 -->
+        <div class="box">
+            <img src="D:\[HTML]\圖片\大頭\Mafuyu_29.png">
+            <div class="description">
+                <p>
+                    是的，就是在這時漸漸有「門」的概念。
+                    <br>在古時的經典也說明了「門」與「戶」都有守護的意思。
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        AOS.init({
+            // 期間為單位的動畫效果
+            duration: 1200.
+        });
+    </script>
+</body>
+
+</html>
